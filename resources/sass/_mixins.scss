@@ -1,0 +1,49 @@
+@mixin center($type: "both") {
+    display: flex;
+    @if $type == "vertical" {
+        align-items: center;
+    } @else if $type== "horizontal" {
+        justify-content: center;
+    } @else if $type== "space" {
+        justify-content: space-between;
+        align-items: center;
+    } @else if $type== "start-n-center" {
+        align-items: flex-start;
+    } @else {
+        align-items: center;
+        justify-content: center;
+    }
+}
+@mixin flex($type) {
+    display: flex;
+    @if $type== "wrap" {
+        flex-wrap: wrap;
+    }
+}
+@mixin fixed-top($type) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+}
+@mixin modlist($type: "selected") {
+    li {
+        list-style-type: none;
+        a {
+            padding: 10px;
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+            &:hover,
+            &.active {
+                @if $type== "selected" {
+                    border-bottom: 1.5px solid $blue-dc;
+                } @else if $type== "none" {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}
