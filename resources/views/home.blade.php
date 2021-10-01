@@ -9,5 +9,6 @@
 </head>
 <body>
     <h1>home</h1>
+    <script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>
