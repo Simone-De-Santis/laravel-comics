@@ -1,12 +1,26 @@
-*{
- margin: 0;
- padding: 0;
- box-sizing: border-box;   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-img{
+img {
     max-width: 100%;
 }
-body{
+body {
     min-height: 100%;
     font-family: $main-font;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+        }
+    }
 }

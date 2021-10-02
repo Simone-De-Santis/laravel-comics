@@ -1,0 +1,21 @@
+.icon-bar {
+    background-color: $blue-dc;
+    // height: 100px;
+    ul {
+        padding: 20px 0;
+        justify-content: space-between;
+        li {
+            a {
+                display: flex;
+                align-items: center;
+                color: white;
+                img {
+                    width: 50px;
+                }
+                p {
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+}

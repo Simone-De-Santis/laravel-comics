@@ -13,6 +13,20 @@ body {
   font-family: "PT Sans Narrow", sans-serif;
 }
 
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1300px;
@@ -49,19 +63,6 @@ header .nav-bar .link-nav {
   height: 20px;
   display: flex;
 }
-header .nav-bar .link-nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-header .nav-bar .link-nav ul li {
-  list-style: none;
-}
-header .nav-bar .link-nav ul li a {
-  padding: 10px;
-  text-decoration: none;
-  color: black;
-}
 header .nav-bar .link-nav ul li a.active, header .nav-bar .link-nav ul li a:hover {
   border-bottom: 1.5px solid #0c70ce;
 }
@@ -76,4 +77,23 @@ header .nav-bar .link-nav input {
   margin-top: 90px;
   background-image: url("../images/jumbotron.jpg");
   background-size: cover;
+}
+
+.icon-bar {
+  background-color: #0c70ce;
+}
+.icon-bar ul {
+  padding: 20px 0;
+  justify-content: space-between;
+}
+.icon-bar ul li a {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.icon-bar ul li a img {
+  width: 50px;
+}
+.icon-bar ul li a p {
+  padding-left: 20px;
 }
