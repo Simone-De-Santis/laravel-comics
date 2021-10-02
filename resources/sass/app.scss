@@ -1,6 +1,7 @@
 //
-@import 'fonts';
-@import 'vars';
-@import 'generic';
-@import 'mixins';
-@import 'utilitys';
+@import 'generic_style/fonts';
+@import 'generic_style/vars';
+@import 'generic_style/generic';
+@import 'generic_style/mixins';
+@import 'generic_style/utilitys';
+@import 'section_style/header'

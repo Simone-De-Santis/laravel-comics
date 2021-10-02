@@ -17,3 +17,47 @@ body {
   margin: 0 auto;
   max-width: 1300px;
 }
+
+header {
+  color: red;
+}
+header .top-header {
+  text-align: end;
+  color: white;
+  background-color: #0c70ce;
+  font-size: 10px;
+}
+header .top-header span {
+  padding-left: 10px;
+}
+header .nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+header .nav-bar .link-nav {
+  height: 20px;
+  display: flex;
+}
+header .nav-bar .link-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .nav-bar .link-nav ul li {
+  list-style: none;
+}
+header .nav-bar .link-nav ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+header .nav-bar .link-nav ul li a.active, header .nav-bar .link-nav ul li a:hover {
+  border-bottom: 1px solid #0c70ce;
+}
+header .nav-bar .link-nav input {
+  border: none;
+  border-bottom: 1px solid #0c70ce;
+  text-align: end;
+}
