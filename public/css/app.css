@@ -20,6 +20,12 @@ body {
 
 header {
   color: red;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: white;
 }
 header .top-header {
   text-align: end;
@@ -35,6 +41,9 @@ header .nav-bar {
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
+}
+header .nav-bar .logo {
+  height: 60px;
 }
 header .nav-bar .link-nav {
   height: 20px;
@@ -54,10 +63,17 @@ header .nav-bar .link-nav ul li a {
   color: black;
 }
 header .nav-bar .link-nav ul li a.active, header .nav-bar .link-nav ul li a:hover {
-  border-bottom: 1px solid #0c70ce;
+  border-bottom: 1.5px solid #0c70ce;
 }
 header .nav-bar .link-nav input {
   border: none;
   border-bottom: 1px solid #0c70ce;
   text-align: end;
+}
+
+.container-hero {
+  height: 500px;
+  margin-top: 90px;
+  background-image: url(../images/jumbotron.jpg);
+  background-size: cover;
 }
