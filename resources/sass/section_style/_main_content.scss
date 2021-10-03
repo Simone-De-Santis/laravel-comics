@@ -1,19 +1,67 @@
-.icon-bar {
-    background-color: $blue-dc;
-    // height: 100px;
-    ul {
-        padding: 20px 0;
-        justify-content: space-between;
-        li {
-            a {
-                display: flex;
-                align-items: center;
+.main-content {
+    main {
+        min-height: 100px;
+        background-color: black;
+        color: white;
+    }
+    .section-comics {
+        // @include flex("wrap");
+        padding: 25px;
+        .card {
+            padding: 5px;
+            width: calc(100% / 6);
+
+            .container-img {
+                overflow: hidden;
+                height: 190px;
+            }
+            .text-img {
+                font-size: 0.9em;
                 color: white;
-                img {
-                    width: 40px;
-                }
-                p {
-                    padding-left: 20px;
+                padding-top: 10px;
+            }
+        }
+    }
+    .section-btn-load {
+        // @include center();
+        padding-bottom: 20px;
+    }
+    .btn {
+        text-transform: uppercase;
+        background-color: $blue-dc;
+        padding: 10px 30px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    .section-btn-current {
+        position: relative;
+        bottom: 5px;
+
+        .btn {
+            font-size: 1.6rem;
+        }
+    }
+
+    //? ---------------- section bottom main ------------------
+    .icon-bar {
+        background-color: $blue-dc;
+        // height: 100px;
+        ul {
+            padding: 20px 0;
+            justify-content: space-between;
+            li {
+                a {
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    img {
+                        width: 40px;
+                    }
+                    p {
+                        padding-left: 20px;
+                    }
                 }
             }
         }
