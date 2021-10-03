@@ -79,22 +79,62 @@ header .nav-bar .link-nav input {
   background-size: cover;
 }
 
-.icon-bar {
+.main-content main {
+  min-height: 100px;
+  background-color: black;
+  color: white;
+}
+.main-content .section-comics {
+  padding: 25px;
+}
+.main-content .section-comics .card {
+  padding: 5px;
+  width: 16.6666666667%;
+}
+.main-content .section-comics .card .container-img {
+  overflow: hidden;
+  height: 190px;
+}
+.main-content .section-comics .card .text-img {
+  font-size: 0.9em;
+  color: white;
+  padding-top: 10px;
+}
+.main-content .section-btn-load {
+  padding-bottom: 20px;
+}
+.main-content .btn {
+  text-transform: uppercase;
+  background-color: #0c70ce;
+  padding: 10px 30px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.main-content .section-btn-current {
+  position: relative;
+  bottom: 5px;
+}
+.main-content .section-btn-current .btn {
+  font-size: 1.6rem;
+}
+.main-content .icon-bar {
   background-color: #0c70ce;
 }
-.icon-bar ul {
+.main-content .icon-bar ul {
   padding: 20px 0;
   justify-content: space-between;
 }
-.icon-bar ul li a {
+.main-content .icon-bar ul li a {
   display: flex;
   align-items: center;
   color: white;
 }
-.icon-bar ul li a img {
+.main-content .icon-bar ul li a img {
   width: 40px;
 }
-.icon-bar ul li a p {
+.main-content .icon-bar ul li a p {
   padding-left: 20px;
 }
 
@@ -132,10 +172,13 @@ footer .footer-content .content-list .row ul h4 a {
   text-decoration: none;
   text-transform: uppercase;
 }
-footer .footer-content .content-list p {
+footer .footer-content .content-list .cookier {
+  padding-top: 20px;
+}
+footer .footer-content .content-list .cookier p {
   color: gray;
 }
-footer .footer-content .content-list p a {
+footer .footer-content .content-list .cookier p a {
   color: #0c70ce;
   text-decoration: none;
 }

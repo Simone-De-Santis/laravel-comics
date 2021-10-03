@@ -21,9 +21,6 @@
               <li><a href="#">shop DC</a></li>
               <li><a href="#">shop DC collectibles</a></li>
             </ul>
-            </ul>
-
-
           </div>
           <div>
             <ul>
@@ -53,7 +50,7 @@
             </ul>
           </div>
         </div>
-        <div>
+        <div class="cookier">
           <p>All Site Content and c 2020 dc entertainment, unless otherwise <a
               href="#">noted here</a>. All rights reserved. </p>
           <p><a href="#"> Cookier Settings</a></p>

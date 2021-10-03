@@ -32,11 +32,14 @@ footer {
                     }
                 }
             }
-            p {
-                color: gray;
-                a {
-                    color: $blue-dc;
-                    text-decoration: none;
+            .cookier {
+                padding-top: 20px;
+                p {
+                    color: gray;
+                    a {
+                        color: $blue-dc;
+                        text-decoration: none;
+                    }
                 }
             }
         }

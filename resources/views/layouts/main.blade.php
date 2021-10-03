@@ -11,18 +11,18 @@
 
 <body>
   {{-- 'componente header' --}}
-  @include('includes.header')
+  @include('includes.general.header')
   <main>
     {{-- sezione main HERO --}}
     <section class="container-hero">
     </section>
-    @yield('content')
+    @yield('content_main_home')
 
-    @include('includes.main_content')
+
 
   </main>
   {{-- 'componente footer' --}}
-  @include('includes.footer')
+  @include('includes.general.footer')
 
 
 
