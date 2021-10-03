@@ -4,16 +4,16 @@
         background-color: black;
         color: white;
     }
-    .section-comics {
-        // @include flex("wrap");
+    .container-cards {
         padding: 25px;
+        display: flex;
+        flex-wrap: wrap;
         .card {
             padding: 5px;
-            width: calc(100% / 6);
-
-            .container-img {
-                overflow: hidden;
+            flex-basis: calc(100% / 6);
+            .img-card {
                 height: 190px;
+                overflow: hidden;
             }
             .text-img {
                 font-size: 0.9em;
@@ -23,7 +23,7 @@
         }
     }
     .section-btn-load {
-        // @include center();
+        text-align: center;
         padding-bottom: 20px;
     }
     .btn {

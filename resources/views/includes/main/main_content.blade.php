@@ -5,8 +5,19 @@
       <div class="section-btn-current">
         <a class="btn" href="#">current series</a>
       </div>
-      <section class="cards">
+      <section class=" container-cards">
         {{-- section container card --}}
+        @foreach ($data as $card)
+          <div class="card">
+            <a href="#">
+              <div class="img-card">
+
+                <img src="{{ $card['thumb'] }}" alt="">
+              </div>
+            </a>
+            <h3 class='text-img'>{{ $card['series'] }}</h3>
+          </div>
+        @endforeach
       </section>
 
 

@@ -84,23 +84,26 @@ header .nav-bar .link-nav input {
   background-color: black;
   color: white;
 }
-.main-content .section-comics {
+.main-content .container-cards {
   padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
 }
-.main-content .section-comics .card {
+.main-content .container-cards .card {
   padding: 5px;
-  width: 16.6666666667%;
+  flex-basis: 16.6666666667%;
 }
-.main-content .section-comics .card .container-img {
-  overflow: hidden;
+.main-content .container-cards .card .img-card {
   height: 190px;
+  overflow: hidden;
 }
-.main-content .section-comics .card .text-img {
+.main-content .container-cards .card .text-img {
   font-size: 0.9em;
   color: white;
   padding-top: 10px;
 }
 .main-content .section-btn-load {
+  text-align: center;
   padding-bottom: 20px;
 }
 .main-content .btn {
