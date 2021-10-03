@@ -1,10 +1,11 @@
 //
-@import 'generic_style/fonts';
-@import 'generic_style/vars';
-@import 'generic_style/generic';
-@import 'generic_style/mixins';
-@import 'generic_style/utilitys';
-@import 'section_style/header';
-@import 'section_style/container-hero';
-@import 'section_style/footer'
-
+@import "generic_style/fonts";
+@import "generic_style/vars";
+@import "generic_style/generic";
+@import "generic_style/mixins";
+@import "generic_style/utilitys";
+// component style
+@import "section_style/header";
+@import "section_style/container-hero";
+@import "section_style/main_content";
+@import "section_style/footer";

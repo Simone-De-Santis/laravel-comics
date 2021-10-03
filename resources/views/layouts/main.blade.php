@@ -12,11 +12,14 @@
 <body>
   {{-- 'componente header' --}}
   @include('includes.header')
-  {{-- sezione main HERO --}}
   <main>
+    {{-- sezione main HERO --}}
     <section class="container-hero">
     </section>
     @yield('content')
+
+    @include('includes.main_content')
+
   </main>
   {{-- 'componente footer' --}}
   @include('includes.footer')
