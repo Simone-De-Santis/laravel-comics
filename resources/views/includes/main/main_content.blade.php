@@ -9,7 +9,7 @@
         {{-- section container card --}}
         @foreach ($data as $card)
           <div class="card">
-            <a href="#">
+            <a href="{{ url("/comics/$loop->index") }}">
               <div class="img-card">
 
                 <img src="{{ $card['thumb'] }}" alt="">
