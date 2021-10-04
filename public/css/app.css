@@ -231,10 +231,13 @@ footer nav #follow a {
 .comics_details .container .col-9 .available .price {
   display: flex;
   flex-basis: 75%;
-  justify-content: space-between;
 }
 .comics_details .container .col-9 .available .btn-available {
   flex-basis: 25%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+}
+.comics_details .container .col-9 .available .btn-available a {
+  color: aqua;
+  border-left: 1px solid #0c70ce;
 }

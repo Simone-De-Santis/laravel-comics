@@ -1,25 +1,33 @@
 <section class=" comics_details">
   <div class="container">
     <div class="col-9">
-      <h1>Asction comics #1000: the deluxe edition</h1>
+      <h1>{{ $data['title'] }}</h1>
+
+
+
+
+      {{-- !!!!!!!!!!!!!!!! da modificare lo style !!!!!!!!!!!!!!!!!! --}}
       <section class="available">
         <div class="price">
           <div>
-            <p>U.S.Price:000.00</p>
-          </div>
-          <div>
-            <p>AVASILABLE</p>
+            <p>U.S.Price:{{ $data['price'] }}</p>
           </div>
         </div>
         <div class="btn-available">
+          <p>AVASILABLE</p>
+
           <a href="#">Check Availability</a>
         </div>
+
       </section>
+
+
+
+
+
+
       <section class="description">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
-          molestiae natus totam ut repellendus! Rerum est vel molestias
-          asperiores perspiciatis. Laborum facere quisquam libero corporis
-          voluptates veniam ab, porro nostrum!</p>
+        <p>{{ $data['description'] }}</p>
       </section>
     </div>
     <div class="col">
