@@ -213,3 +213,28 @@ footer nav #follow {
 footer nav #follow a {
   color: #0c70ce;
 }
+
+.comics_details .container {
+  display: flex;
+  padding: 20px 0;
+}
+.comics_details .container .col-9 {
+  flex-basis: 75%;
+  padding-right: 50px;
+}
+.comics_details .container .col-9 .available {
+  display: flex;
+  background-color: #55ba59;
+  color: #bafd9c;
+  padding: 20px;
+}
+.comics_details .container .col-9 .available .price {
+  display: flex;
+  flex-basis: 75%;
+  justify-content: space-between;
+}
+.comics_details .container .col-9 .available .btn-available {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,26 @@
+.comics_details {
+    .container {
+        display: flex;
+        padding: 20px 0;
+        .col-9 {
+            flex-basis: calc((100% / 12) * 9);
+            padding-right: 50px;
+            .available {
+                display: flex;
+                background-color: #55ba59;
+                color: #bafd9c;
+                padding: 20px;
+                .price {
+                    display: flex;
+                    flex-basis: calc((100% / 12) * 9);
+                    justify-content: space-between;
+                }
+                .btn-available {
+                    flex-basis: calc((100% / 12) * 3);
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}

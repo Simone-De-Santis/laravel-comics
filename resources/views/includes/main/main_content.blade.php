@@ -19,26 +19,17 @@
           </div>
         @endforeach
       </section>
-
-
-
       <div class="section-btn-load">
         {{-- btn load more --}}
         <a class="btn" href="#">load more</a>
       </div>
     </div>
-
-
   </main>
-
-
-
   <section class="icon-bar">
     <div class="container ">
       <ul>
         <li>
           <a class="" href=" #">
-
             <img src="{{ asset('images/buy-comics-digital-comics.png') }}"
               alt="buy-comics-digital-comics.png" />
             <p>digital comics</p>
