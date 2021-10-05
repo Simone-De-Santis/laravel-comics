@@ -1,7 +1,32 @@
 .comics_details {
+    .col-4 {
+        flex-basis: calc((100% / 12) * 4);
+    }
+    .col-6 {
+        flex-basis: calc((100% / 12) * 6);
+    }
+    .col-7 {
+        flex-basis: calc((100% / 12) * 7);
+    }
+    .row {
+        display: flex;
+    }
+    hr {
+        border-color: #80808021;
+        margin: 20px 0;
+    }
+    .special {
+        background-color: $blue-dc;
+        height: 80px;
+        img {
+            position: relative;
+            bottom: 250px;
+        }
+    }
     .container {
         display: flex;
         padding: 20px 0;
+
         .col-9 {
             flex-basis: calc((100% / 12) * 9);
             padding-right: 50px;
@@ -24,6 +49,14 @@
                     }
                 }
             }
+        }
+    }
+    .specifics {
+        background-color: #e3dddd4a;
+        .container {
+        }
+        .talent {
+            padding-right: 40px;
         }
     }
 }

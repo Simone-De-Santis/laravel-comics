@@ -214,6 +214,30 @@ footer nav #follow a {
   color: #0c70ce;
 }
 
+.comics_details .col-4 {
+  flex-basis: 33.3333333333%;
+}
+.comics_details .col-6 {
+  flex-basis: 50%;
+}
+.comics_details .col-7 {
+  flex-basis: 58.3333333333%;
+}
+.comics_details .row {
+  display: flex;
+}
+.comics_details hr {
+  border-color: #80808021;
+  margin: 20px 0;
+}
+.comics_details .special {
+  background-color: #0c70ce;
+  height: 80px;
+}
+.comics_details .special img {
+  position: relative;
+  bottom: 250px;
+}
 .comics_details .container {
   display: flex;
   padding: 20px 0;
@@ -240,4 +264,10 @@ footer nav #follow a {
 .comics_details .container .col-9 .available .btn-available a {
   color: aqua;
   border-left: 1px solid #0c70ce;
+}
+.comics_details .specifics {
+  background-color: #e3dddd4a;
+}
+.comics_details .specifics .talent {
+  padding-right: 40px;
 }
